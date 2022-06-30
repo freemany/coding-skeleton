@@ -4,11 +4,19 @@
     <meta charset="utf-8" />
     <title>Javascript Coding Skeleton</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <style></style>
+    <script>
+      const addHeader = (title) => {
+        const $header = $("<h1>").text(title);
+        $("#app").append($header);
+      };
+    </script>
   </head>
   <body>
     <div id="app"></div>
-    <script src="src/header.js"></script>
-    <script src="main.js"></script>
+
+    <script>
+      // main
+      addHeader("Hello World");
+    </script>
   </body>
 </html>
