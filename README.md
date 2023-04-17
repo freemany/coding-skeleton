@@ -4,7 +4,7 @@
 
 Mac:
 
-`/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --allow-file-access-from-files`
+`"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --allow-file-access-from-files`
 
 Windows 10:
 
